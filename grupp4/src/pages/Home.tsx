@@ -3,12 +3,12 @@ import { Recipe } from "../models/recipe";
 
 export const Home = () => {
   const [recipes, setRecipes] = useState<Recipe[]>([
-    new Recipe("Bolognese", 123, "url"),
+    new Recipe("Bolognese", 123, "./src/assets/carbonara.jpg"),
   ]);
   return (
     <div>
       <div className="hero">
-        <img src="" alt="" />
+        <img src="./src/assets/Hero.png" alt="" />
       </div>
       <div className="recipe-Wrapper">
         {recipes.map((r) => (
