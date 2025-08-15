@@ -1,6 +1,6 @@
 .header {
   margin: 0;
-  height: 20vh;
+  height: 15vh;
   display: flex;
   align-items: center;   
   position: relative;    
@@ -23,7 +23,7 @@
 }
 
 .logo {
-  height: 120px;
+  height: 100px;
   width: auto;
   margin-left: auto;  
   padding-right: 2%;
