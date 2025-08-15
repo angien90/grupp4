@@ -1,5 +1,5 @@
-import React, { useState, useMemo, useEffect } from 'react';
-import '../Carousel.css'
+import React, { useState, useEffect } from 'react';
+import '../Carousel.css';
 import CarouselArrows from './Arrows';
 import CarouselDots from './Dots';
 
@@ -13,15 +13,9 @@ const ImageCarousel: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
 
-  const leftIndex = useMemo(
-    () => (currentIndex - 1 + images.length) % images.length,
-    [currentIndex]
-  );
-
-  const rightIndex = useMemo(
-    () => (currentIndex + 1) % images.length,
-    [currentIndex]
-  );
+  // Beräkningarna görs direkt i renderingen
+  const leftIndex = (currentIndex - 1 + images.length) % images.length;
+  const rightIndex = (currentIndex + 1) % images.length;
 
   const nextImage = () => {
     if (isAnimating) return;

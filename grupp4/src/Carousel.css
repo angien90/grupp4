@@ -28,7 +28,7 @@
 }
 
 .carousel-image {
-  width: 80%;
+  width: 100%;
   height: 300px;
   border-radius: 8px;
   transition: transform 0.5s ease, opacity 0.5s ease;
@@ -36,7 +36,7 @@
 }
 
 .carousel-image.left {
-  transform: translateX(-25%) scale(0.85);
+  transform: translateX(-55%) scale(0.85);
   opacity: 0.7;
   z-index: 1;
 }
@@ -48,7 +48,7 @@
 }
 
 .carousel-image.right {
-  transform: translateX(25%) scale(0.85);
+  transform: translateX(55%) scale(0.85);
   opacity: 0.7;
   z-index: 1;
 }
