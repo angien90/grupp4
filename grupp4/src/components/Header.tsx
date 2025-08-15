@@ -1,4 +1,4 @@
-export const Navigation = () => {
+export const Header = () => {
   return (
     <>
       <h1>Al Dente</h1>
