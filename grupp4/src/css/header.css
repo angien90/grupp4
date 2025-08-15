@@ -1,0 +1,30 @@
+.header {
+  margin: 0;
+  height: 15vh;
+  display: flex;
+  align-items: center;   
+  position: relative;    
+
+  background: linear-gradient(
+    to right,
+    green 0%,
+    green 33.33%,
+    white 33.33%,
+    white 66.66%,
+    red 66.66%,
+    red 100%
+  );
+}
+
+.h1 {
+  position: absolute;
+  left: 50%;                    
+  transform: translateX(-50%);   
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  margin-left: auto;  
+  padding-right: 2%;
+}
