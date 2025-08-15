@@ -24,7 +24,6 @@ export const Home = () => {
           <h2>Recipe #1</h2>
         </div>
       </div>
-      HOME
     </div>
   );
 };

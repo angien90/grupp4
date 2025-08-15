@@ -4,6 +4,7 @@ import { Footer } from "../components/Footer";
 import ImageCarousel from "../components/Carousel";
 
 import '../css/header.css';
+import '../css/footer.css';
 
 export const Layout = () => {
   return (

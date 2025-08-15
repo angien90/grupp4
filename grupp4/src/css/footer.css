@@ -1,0 +1,31 @@
+.footer-wrapper {
+    width: 100%;
+    background-color: lightslategray;
+    bottom: 0;
+    height: 130px;
+    color: antiquewhite;
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.contact-info {
+    font-style: normal;
+    line-height: 1.5;
+    padding-left: 5%;
+}
+
+.a {
+    color: antiquewhite;
+    font-style: normal;
+}
+.social-links {
+    color: antiquewhite;
+    display: flex;
+    gap: 1rem; 
+    font-size: 1.5rem;
+    padding-right: 5%;
+}
