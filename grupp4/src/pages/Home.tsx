@@ -8,8 +8,9 @@ export const Home = () => {
   return (
     <div>
       <div className="hero">
-        <img src="./src/assets/Hero.png" alt="" />
+        <img src="./src/assets/Hero.png" alt="bild på två pastarätter och två glas vin som står på ett bord med utsikt över vattnet"/>
       </div>
+
       <div className="recipe-Wrapper">
         {recipes.map((r) => (
           <div>
