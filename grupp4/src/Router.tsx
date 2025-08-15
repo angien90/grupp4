@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import { Layout } from "./pages/Layout";
 import { Home } from "./pages/Home";
-import { Recipe } from "./pages/Recipe";
+import  Recipe  from "./pages/Recipe";
 
 export const Router = createBrowserRouter([
   {
@@ -13,7 +13,7 @@ export const Router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/recipe/:id",
+        path: "recipe/:id",
         element: <Recipe />,
       },
     ],
