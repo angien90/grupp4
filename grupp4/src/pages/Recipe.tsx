@@ -1,9 +1,10 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom"; 
 import { recipes } from "../data/detailRecipes";
 import "./recipeStyle.css";
 
 const RecipeDetailPage = () => {
   const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate(); 
   const recipe = recipes.find(r => r.id === Number(id));
 
   if (!recipe) return <p>Receptet hittades inte.</p>;
@@ -20,9 +21,10 @@ const RecipeDetailPage = () => {
 
   return (
     <div className="recipe-container">
-      <span className="material-symbols-outlined">
-        reply
-      </span>
+      <button onClick={() => navigate("/")} className="back-button">
+        <span className="material-symbols-outlined icon">reply</span>
+      </button>
+
       <h1>{recipe.name}</h1>
       <img src={recipe.img} alt={recipe.name} />
       <p><strong>Beskrivning:</strong> {recipe.description}</p>
