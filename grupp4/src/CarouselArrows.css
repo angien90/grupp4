@@ -1,0 +1,17 @@
+.carousel-arrow {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+  padding: 0 10px;
+  z-index: 3;
+}
+
+.carousel-arrow.left {
+  margin-right: auto;
+}
+
+.carousel-arrow.right {
+  margin-left: auto;
+}
