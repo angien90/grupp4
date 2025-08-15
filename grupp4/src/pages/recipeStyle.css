@@ -31,3 +31,25 @@
 .recipe-container strong {
   color: #333;
 }
+
+.back-button {
+  background: none;      
+  border: none;           
+  cursor: pointer;        
+  padding: 0;             
+  display: inline-flex;   
+  align-items: center;
+  font-size: 55px;        
+  transition: transform 0.2s ease, color 0.2s ease;
+  color: #333;          
+}
+
+.back-button:hover {
+  transform: scale(1.1); 
+  color: #ff0000;        
+}
+
+.icon {
+    font-size: 2.5rem;
+}
+
