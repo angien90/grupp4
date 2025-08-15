@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Recipe } from "../models/recipe";
+import { Recipe } from "../models/Recipe";
 
 export const Home = () => {
   const [recipes, setRecipes] = useState<Recipe[]>([
