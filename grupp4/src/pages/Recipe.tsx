@@ -20,6 +20,9 @@ const RecipeDetailPage = () => {
 
   return (
     <div className="recipe-container">
+      <span className="material-symbols-outlined">
+        reply
+      </span>
       <h1>{recipe.name}</h1>
       <img src={recipe.img} alt={recipe.name} />
       <p><strong>Beskrivning:</strong> {recipe.description}</p>
