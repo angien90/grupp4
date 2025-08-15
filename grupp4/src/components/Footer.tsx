@@ -1,7 +1,9 @@
 export const Footer = () => {
   return (
     <>
-      <p>SOCIALS</p>
+      <footer style={{ textAlign: 'center', padding: '1rem', backgroundColor: 'grey' }}>
+        SOCIALS
+      </footer>
     </>
   );
 };
