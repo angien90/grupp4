@@ -4,16 +4,6 @@
   display: flex;
   align-items: center;   
   position: relative;    
-
-  background: linear-gradient(
-    to right,
-    green 0%,
-    green 33.33%,
-    white 33.33%,
-    white 66.66%,
-    red 66.66%,
-    red 100%
-  );
 }
 
 .h1 {
